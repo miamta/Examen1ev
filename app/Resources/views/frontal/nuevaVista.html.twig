@@ -1,0 +1,18 @@
+<HTML>
+   <HEAD>
+      <TITLE> Contacto </TITLE>
+   </HEAD>
+   <BODY>
+     <table border=1>
+     {% for vips in vip %}
+      <th> <p>{{ vip.id }}</p> </th>
+      <th> <p>{{ vip.nombre }}</p> </th>
+      <th> <p>{{ vip.apellidos }}</p> </th>
+      <th> <p>{{ vip.edad }}</p> </th>
+      <th> <p>{{ vip.DNI }}</p> </th>
+      <th> <p>{{ vip.cargo }}</p> </th>
+      <th> <p>{{ vip.telefono }}</p> </th>
+       {% endfor %}
+      </table>
+   </BODY>
+</HTML>

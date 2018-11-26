@@ -1,0 +1,13 @@
+<HTML>
+   <HEAD>
+      <TITLE> Contacto </TITLE>
+   </HEAD>
+   <BODY>
+     <table border=1>
+     {% for vips in vip %}
+      <th> <p>{{ vip.id }}</p> </th>
+      <th> <p>{{ vip.nombre }}</p> </th>
+       {% endfor %}
+      </table>
+   </BODY>
+</HTML>

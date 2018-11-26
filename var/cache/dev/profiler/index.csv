@@ -1,0 +1,5 @@
+55b0a2,127.0.0.1,GET,http://localhost:8000/frontal/,1542796044,,200
+b88dd6,127.0.0.1,GET,http://localhost:8000/frontal/,1542796117,ef040d,200
+ef040d,127.0.0.1,GET,http://localhost:8000/frontal/,1542796117,,500
+47cb03,127.0.0.1,GET,http://localhost:8000/frontal/,1542796145,1d3383,200
+1d3383,127.0.0.1,GET,http://localhost:8000/frontal/,1542796146,,500
